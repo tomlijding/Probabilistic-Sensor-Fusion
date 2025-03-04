@@ -176,7 +176,7 @@ def nablaPhiLin3D(X, modelParameters):
     j1 = indices[:, 0]
     j2 = indices[:, 1]
     j3 = indices[:, 2]
-
+    print(X.shape)
     N = X.shape[1]
     nablaPhiLin = np.zeros((3, Nm+3, N))
 
